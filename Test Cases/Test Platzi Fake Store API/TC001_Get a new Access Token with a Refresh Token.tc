@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Get a new Access Token with a Refresh Token</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>abe1520f-d7d8-4553-86ab-328011709198</testCaseGuid>
+</TestCaseEntity>
