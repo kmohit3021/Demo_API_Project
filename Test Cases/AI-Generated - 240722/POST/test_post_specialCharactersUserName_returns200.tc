@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_post_specialCharactersUserName_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08425cdf-fe8f-4621-a9e0-6971a2a12109</testCaseGuid>
+</TestCaseEntity>

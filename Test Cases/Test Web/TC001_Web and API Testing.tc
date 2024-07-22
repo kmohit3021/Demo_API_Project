@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Web and API Testing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96949da8-cecb-4a81-af26-7f6e3190af57</testCaseGuid>
+</TestCaseEntity>

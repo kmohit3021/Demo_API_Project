@@ -1,49 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get a single product</name>
+   <name>POST</name>
    <tag></tag>
-   <elementGuidId>1a144541-f38c-4186-b168-8a6adf73b0f4</elementGuidId>
+   <elementGuidId>843cd1e7-0e12-498f-83dc-8d66c9423622</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <authorizationRequest>
-      <authorizationInfo>
-         <entry>
-            <key>bearerToken</key>
-            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjEyNDM1NjAsImV4cCI6MTcyMTI0NTM2MH0.17HEhXykS4yeXqjm8LqislPbVVFRavgTC4IzFNKZomo</value>
-         </entry>
-      </authorizationInfo>
-      <authorizationType>Bearer</authorizationType>
-   </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Accept</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>0a5b06a1-95aa-46cd-9a6d-b661b691806d</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: 0,\n  \&quot;userName\&quot;: \&quot;mohit kumar\&quot;,\n  \&quot;password\&quot;: \&quot;Pass@123\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>ff533b4d-7463-4585-aa66-545b6083986a</webElementGuid>
+      <webElementGuid>da458e6b-3507-43bf-82fb-801e68c5a6f2</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>ceff247b-10aa-4736-8424-31b44bc2fe47</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://dummyjson.com/products/search?q=phone</restUrl>
+   <path>/api/v1/Users</path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://fakerestapi.azurewebsites.net/api/v1/Users</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -64,9 +59,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-WS.verifyElementPropertyValue(response, 'products[0].brand', &quot;Apple&quot;)
-WS.verifyElementPropertyValue(response, 'products[0].sku', &quot;HPK82VDE&quot;)</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

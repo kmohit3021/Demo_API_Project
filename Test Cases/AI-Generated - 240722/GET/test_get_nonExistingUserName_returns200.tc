@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_nonExistingUserName_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>832fb760-ea66-4b94-957e-bc9d0b410106</testCaseGuid>
+</TestCaseEntity>

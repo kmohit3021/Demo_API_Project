@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_validUserName_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92ac4c64-eb67-4e77-b590-2a65c08fd461</testCaseGuid>
+</TestCaseEntity>
